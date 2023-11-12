@@ -1,0 +1,1 @@
+Develop a web page with a text field allowing the entry of a message. Upon pressing the "send" button, a new window should open containing that message. The new window should also include a text indicating the size of the new window. Finally, when closing the new window, a message should appear on the initial window indicating the action.
