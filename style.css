@@ -1,0 +1,88 @@
+body{
+    margin: 1rem;
+    background-color: #dadada;
+    text-align: center;
+    justify-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.formulario{
+    border: 2px solid;
+    border-color: #989898;
+    border-radius: 0.7rem;
+    padding: 2rem;
+    width: 50%;
+    background-color: #c9c9c9;
+}
+
+.titulo{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.campos{
+    padding: 0.5rem;
+}
+
+.cierre{
+    margin: 10px;
+    font-weight: bold;
+}
+
+.pie{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem;
+    font-size: x-small;
+    font-weight: bold;
+    width: 50%;
+}
+
+.texto{
+    outline: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 2px solid;
+    border-color: #989898;
+    background-color: #c9c9c9;
+    border-radius: 0.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto:hover{
+    background-color: #989898;
+}
+
+.texto:focus{
+    border: 2px solid;
+    border-color: #000000;
+    background-color: #989898;
+}
+
+.boton{
+    padding: 0.5rem;
+    outline: none;
+    border: 2px solid;
+    border-color: #989898;
+    border-radius: 0.7rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.boton:hover{
+    border: 2px solid;
+    background-color: #989898;
+    box-shadow: 2px 2px 5px #888;
+}
+
+.boton:focus{
+    border-color: #000000;
+}
+
+.boton:active{
+    background-color: #989898;
+    box-shadow: none;
+}
